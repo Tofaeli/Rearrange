@@ -22,7 +22,7 @@ Where the readings (1mHCPcon) are translated in the following manner.
 ```
 [1][m][HCP][con]
 ```
-The first character represents the intercoil spacing
-The second character represents the units for the intercoil spacing  
-Characters 3, 4 and 5 identifies the coil geometry. HCP for horizontal co-planar and PRP for perpendicular.
-The last 3 characters identifies the attribute. con for the conductivity and mag for the magnetic susceptibility.
+* The first character represents the intercoil spacing
+* The second character represents the units for the intercoil spacing  
+* Characters 3, 4 and 5 identifies the coil geometry. HCP for horizontal co-planar and PRP for perpendicular
+* The last 3 characters identifies the attribute. con for the conductivity and mag for the magnetic susceptibility
