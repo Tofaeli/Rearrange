@@ -20,8 +20,8 @@ def dualem(inputfile, outputfile = "output.csv"):
     readings8 = []
 
     for Lon in df_DUALEM["WGS84_LON"]:
-        if str(Lon) != "nan":
-            print(round(Lon,8),round(df_DUALEM["WGS84_LAT"][sum],8),round(df_DUALEM["AUX_X3"][sum+1],5))
+        if str(Lon) != "nan" and sum < len(df_DUALEM["WGS84_LON"])-1:
+            print(round(Lon,8),round(df_DUALEM["WGS84_LAT"][sum],8),round(df_DUALEM["AUX_X3"][sum+1],5),sum,len(df_DUALEM["WGS84_LON"]))
             time.append(sum)
             lon.append(round(Lon,8))
             lat.append(round(df_DUALEM["WGS84_LAT"][sum],8))
